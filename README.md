@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> Music tear list</title>
+    Music tier list
   </head>
 
 </html>
