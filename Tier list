@@ -1,7 +1,121 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> Music tear list</title>
-  </head>
+<head>
+    <title>F1 Tier List</title>
+    <style>
+        body {
+            background-color: #98857c;
+            font-family: Arial, sans-serif;
+        }
 
+        header {
+            background-color: #6495ED;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #06b8b8;
+            text-align: center;
+        }
+
+        h2 {
+            color: #ffffff;
+            background-color: #3e4752;
+            padding: 5px;
+        }
+
+        ul {
+            color: #3e4752;
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 8px;
+            display: block;
+            margin: 10px 0;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #06b8b8;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Formula 1 Tier List</h1>
+    </header>
+
+    <h2>S Tier</h2>
+    <ul>
+        <li>Max Verstappen</li>
+        <img src="https://imgs.search.brave.com/WatlvqvlQjLsAdfyp6806vguQXYmtQxKVZfnRtpi0B4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9lL2UwLzIw/MjQtMDgtMjVfTW90/b3JzcG9ydCUyQ19G/b3JtZWxfMSUyQ19H/cm8lQzMlOUZlcl9Q/cmVpc19kZXJfTmll/ZGVybGFuZGVfMjAy/NF9TVFBfMzk3M19i/eV9TdGVwcm8uanBn/LzUxMnB4LTIwMjQt/MDgtMjVfTW90b3Jz/cG9ydCUyQ19Gb3Jt/ZWxfMSUyQ19Hcm8l/QzMlOUZlcl9QcmVp/c19kZXJfTmllZGVy/bGFuZGVfMjAyNF9T/VFBfMzk3M19ieV9T/dGVwcm8uanBn" alt="Max Verstappen" />
+        
+        <li>Lewis Hamilton</li>
+        <img src="https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg)/origin-imgresizer.eurosport.com/2024/06/02/3980980-80795308-2560-1440.jpg" alt="Lewis Hamilton" />
+
+        <li>Lando Norris</li>
+        <img src="https://imgs.search.brave.com/bgPcXat9mx0NsJSNzyRwejEvcd3hhj-G6kpgO7v3bwM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9iL2I5LzIw/MjQtMDgtMjVfTW90/b3JzcG9ydCUyQ19G/b3JtZWxfMSUyQ19H/cm8lQzMlOUZlcl9Q/cmVpc19kZXJfTmll/ZGVybGFuZGVfMjAy/NF9TVFBfMzk3NV9i/eV9TdGVwcm9fJTI4/Y3JvcHBlZCUyOS5q/cGcvNTEycHgtMjAy/NC0wOC0yNV9Nb3Rv/cnNwb3J0JTJDX0Zv/cm1lbF8xJTJDX0dy/byVDMyU5RmVyX1By/ZWlzX2Rlcl9OaWVk/ZXJsYW5kZV8yMDI0/X1NUUF8zOTc1X2J5/X1N0ZXByb18lMjhj/cm9wcGVkJTI5Lmpw/Zw" alt="Lando Norris" />
+
+        <li>Fernando Alonso</li>
+        <img src="https://imgs.search.brave.com/psKsyXMsboENtxWle9yKQLCp4kXgsJvurfAxG5VhTyU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi8wLzBmL0Zl/cm5hbmRvX0Fsb25z/b19OQVNDQVJfTWVk/aWFfVG91cl8yMDE4/LmpwZy81MTJweC1G/ZXJuYW5kb19BbG9u/c29fTkFTQ0FSX01l/ZGlhX1RvdXJfMjAx/OC5qcGc" alt="Fernando Alonso" />
+    </ul>
+
+    <h2>A Tier</h2>
+    <ul>
+        <li>Charles Leclerc</li>
+        <img src="https://imgs.search.brave.com/kkZxRhOcCyywHio7na8gu0ldohH9HuK6erO5bdDzSgM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi85LzkxL0No/YXJsZXMtTGVjbGVy/Y18lMjhjcm9wcGVk/XzElMjkuanBnLzUx/MnB4LUNoYXJsZXMt/TGVjbGVyY18lMjhj/cm9wcGVkXzElMjku/anBn" alt="Charles Leclerc" />
+
+        <li>Oscar Piastri</li>
+        <img src="https://imgs.search.brave.com/zG87DyM83yKTSVtOpT-nGDv6Qlt9y15pDwn3S6PcnwQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi82LzY0L09z/Y2FyX1BpYXN0cmku/cG5nLzUxMnB4LU9z/Y2FyX1BpYXN0cmku/cG5n" alt="Oscar Piastri" />
+
+        <li>George Russell</li>
+        <img src="https://imgs.search.brave.com/xTZWdBwThgb5sOdhstaDGI4E_qofpFEYWvsu5J_85Ww/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9mL2ZmL0dl/b3JnZV9SdXNzZWxs/JTJDX0JyaXRpc2hf/R1BfMjAyMl8lMjg1/MjM4MTQzMDY5MiUy/OV8lMjhjcm9wcGVk/JTI5LmpwZy81MTJw/eC1HZW9yZ2VfUnVz/c2VsbCUyQ19Ccml0/aXNoX0dQXzIwMjJf/JTI4NTIzODE0MzA2/OTIlMjlfJTI4Y3Jv/cHBlZCUyOS5qcGc" alt="George Russell" />
+    </ul>
+
+    <h2>B Tier</h2>
+    <ul>
+        <li>Alex Albon</li>
+        <img src="https://imgs.search.brave.com/n0RPIRxphRs_YM2HiKowrUyml_7VG9Uu_RNBPaUm3Gc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9jL2M5L0Fs/ZXhfQWJvbjYuanBn/LzUxMnB4LUFsZXhf/QWJvbjYuanBn" alt="Alex Albon" />
+        
+        <li>Esteban Ocon</li>
+        <img src="https://imgs.search.brave.com/PVxIb5YHKBG7VQuHYLo7bl4vyo_1tp5XXP4ijgyRJg0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi82LzY0L0Vz/dGViYW5fT2Nvbi5w/bmcvNTEycHgtRXN0/ZWJhbl9PY29uLnBu/Zw" alt="Esteban Ocon" />
+    </ul>
+
+    <footer>
+        <form>
+            <label for="feedback">Provide Feedback:</label><br />
+            <input type="text" id="feedback" name="feedback" placeholder="Enter your feedback here..." />
+            <br /><br />
+            <input type="submit" value="Submit" />
+        </form>
+    </footer>
+</body>
 </html>
