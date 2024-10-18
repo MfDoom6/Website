@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>F1 Tier List</title>
+    <style>
+        body {
+            background-color: #98857c;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #6495ED;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #06b8b8;
+            text-align: center;
+        }
+
+        h2 {
+            color: #ffffff;
+            background-color: #3e4752;
+            padding: 5px;
+        }
+
+        ul {
+            color: #3e4752;
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 8px;
+            display: block;
+            margin: 10px 0;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-top: 5px;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #06b8b8;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Formula 1 Tier List</h1>
+    </header>
+
+    <h2>S Tier</h2>
+    <ul id="s-tier">
+        <li>Max Verstappen</li>
+        <li>Lewis Hamilton</li>
+        <li>Lando Norris</li>
+        <li>Fernando Alonso</li>
+    </ul>
+
+    <h2>A Tier</h2>
+    <ul id="a-tier">
+        <li>Charles Leclerc</li>
+        <li>Oscar Piastri</li>
+        <li>George Russell</li>
+    </ul>
+
+    <h2>B Tier</h2>
+    <ul id="b-tier">
+        <li>Alex Albon</li>
+        <li>Esteban Ocon</li>
+    </ul>
+
+    <footer>
+        <form id="add-driver-form">
+            <label for="driverName">Driver's Name:</label><br />
+            <input type="text" id="driverName" name="driverName" placeholder="Enter driver's name..." required />
+            <br /><br />
+            <label for="tierSelect">Select Tier:</label><br />
+            <select id="tierSelect" name="tierSelect">
+                <option value="s-tier">S Tier</option>
+                <option value="a-tier">A Tier</option>
+                <option value="b-tier">B Tier</option>
+            </select>
+            <br /><br />
+            <input type="submit" value="Add Driver" />
+        </form>
+    </footer>
+
+    <script>
+        // Add event listener for the form submission
+        document.getElementById("add-driver-form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form from submitting in the traditional way
+
+            // Get the driver name and tier
+            const driverName = document.getElementById("driverName").value;
+            const tierSelect = document.getElementById("tierSelect").value;
+
+            // Create a new list item
+            const newDriver = document.createElement("li");
+            newDriver.textContent = driverName;
+
+            // Append the new driver to the selected tier list
+            document.getElementById(tierSelect).appendChild(newDriver);
+
+            // Clear the form fields
+            document.getElementById("add-driver-form").reset();
+        });
+    </script>
+</body>
+</html>
